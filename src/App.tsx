@@ -1,5 +1,5 @@
 import './App.css'
-import { RouterApp } from './routes/RouterApp'
+import { RouterApp } from './router/RouterApp'
 import { AppTheme } from './theme/AppTheme'
 
 function App() {
