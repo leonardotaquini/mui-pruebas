@@ -8,8 +8,8 @@ export const RouterApp = () => {
     <>
         <Routes>
             <Route path="/" element={ <h1>Pagina principal</h1> }  />
-            <Route path="/dashboard" element={ <DashboardRoutes/> }  />
-            <Route path="/auth" element={ <AuthRoutes /> } />
+            <Route path="/dashboard/*" element={ <DashboardRoutes/> }  />
+            <Route path="/auth/*" element={ <AuthRoutes /> } />
             <Route path="*" element={ <NotFound /> } />
         </Routes>
     </>
