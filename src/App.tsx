@@ -5,8 +5,8 @@ import { AppTheme } from './theme/AppTheme'
 function App() {
 
   return (
-    <AppTheme>
-      <RouterApp/>
+    <AppTheme >
+      <RouterApp />
     </AppTheme>
   )
 }

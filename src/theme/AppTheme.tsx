@@ -1,7 +1,13 @@
 import { dark } from "./DarkTheme";
 import { CssBaseline , ThemeProvider} from "@mui/material";
 
-export const AppTheme = ({ children }: { children: React.ReactNode }) => {
+
+interface AppThemeProps {
+  children: React.ReactNode;
+
+}
+
+export const AppTheme = ({ children }: AppThemeProps) => {
   return (
     <ThemeProvider theme={dark}>
       <CssBaseline />

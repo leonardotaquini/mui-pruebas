@@ -1,11 +1,12 @@
 import { Box, Typography } from "@mui/material"
+import { DashboardLayout } from '../layout/DashboardLayout';
 
 export const DashboardPage = () => {
   return (
-    <>
-      <Box sx={{ minHeight: '100vh' }}>
-        <Typography variant="h4" align="center" mt={2}> Dashboard</Typography> 
+    <DashboardLayout>
+      <Box>
+        <Typography variant="h4" align="center">Contenido..</Typography> 
       </Box>
-    </>
+    </DashboardLayout>
   )
 }

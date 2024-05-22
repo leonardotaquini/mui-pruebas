@@ -7,7 +7,7 @@ export const RouterApp = () => {
   return (
     <>
         <Routes>
-            <Route path="/" element={ <h1>Pagina principal</h1> }  />
+            <Route path="/" element={ <h1 style={{display:'grid', placeItems:'center'}}>Pagina principal</h1> }  />
             <Route path="/dashboard/*" element={ <DashboardRoutes/> }  />
             <Route path="/auth/*" element={ <AuthRoutes /> } />
             <Route path="*" element={ <NotFound /> } />
