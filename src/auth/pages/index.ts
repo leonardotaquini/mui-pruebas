@@ -1,2 +1,2 @@
 export * from './LoginPage'
-export * from './NotFound'
+export * from '../../ui/pages/NotFound'

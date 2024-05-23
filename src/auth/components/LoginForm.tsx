@@ -54,9 +54,7 @@ export const LoginForm = ( { title }: { title: string }) => {
         </Button>
       </Grid>
       <Grid container direction='row' justifyContent='end'>
-        <Link component={ LinkRouter } color='inherit' to="/auth/signup" mt={2}>
-          No tienes cuenta? Registrate
-        </Link>
+        <Typography mt={2} >¿No tenés cuenta?<Link component={ LinkRouter } px={1} color='inherit' to="/auth/signup">Registrate</Link></Typography>
       </Grid>
     </Grid>
   );

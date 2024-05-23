@@ -9,7 +9,7 @@ export const FormLayout = ( { children }: FormLayoutProps ) => {
     <Grid
       spacing={3}
       component={"main"}
-      sx={{ height: "100vh" }}
+      sx={{ minHeight: "100vh", backgroundColor: "black"}}
       justifyContent="center"
       alignItems="center"
       container

@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom"
 import { LoginPage } from "../pages/LoginPage"
-import { NotFound } from "../pages/NotFound"
+import { NotFound } from "../../ui/pages/NotFound"
 import { SignUpPage } from "../pages/SignUpPage"
 
 

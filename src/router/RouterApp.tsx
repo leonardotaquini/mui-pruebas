@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom"
-import { NotFound } from "../auth/pages/NotFound"
+import { NotFound } from "../ui/pages/NotFound"
 import { AuthRoutes } from "../auth/routes/AuthRoutes"
 import { DashboardRoutes } from "../dashboard/routes/DashboardRoutes"
 

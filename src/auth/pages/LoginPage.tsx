@@ -3,8 +3,9 @@ import { FormLayout } from "../layout/FormLayout";
 
 export const LoginPage = () => {
   return (
+    
     <FormLayout>
-      <LoginForm title="Iniciar Sesion" />
+      <LoginForm title="Iniciar Sesion"/>
     </FormLayout>
   );
 };

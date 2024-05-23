@@ -3,9 +3,8 @@ import { RouterApp } from './router/RouterApp'
 import { AppTheme } from './theme/AppTheme'
 
 function App() {
-
   return (
-    <AppTheme >
+    <AppTheme>
       <RouterApp />
     </AppTheme>
   )

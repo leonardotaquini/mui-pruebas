@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom"
 import { DashboardPage } from "../pages/DashboardPage"
-import { NotFound } from "../../auth/pages/NotFound"
+import { NotFound } from "../../ui/pages/NotFound"
 import { MetricsPage } from "../pages/MetricsPage"
 
 export const DashboardRoutes = () => {
