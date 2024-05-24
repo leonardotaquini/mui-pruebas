@@ -3,7 +3,7 @@ import { useForm, SubmitHandler } from "react-hook-form";
 import { LoginFormI } from "../interfaces/loginForm";
 import { Link  as LinkRouter } from "react-router-dom";
 
-export const LoginForm = ( { title }: { title: string }) => {
+export const LoginForm = () => {
   const {
     register,
     handleSubmit,
@@ -22,11 +22,6 @@ export const LoginForm = ( { title }: { title: string }) => {
       alignItems={"center"}
       onSubmit={handleSubmit(onSubmit)}
     >
-      <Grid item xs={12}>
-        <Typography align="center" variant="h4">
-          { title }
-        </Typography>
-      </Grid>
       <Grid item xs={12}>
         <TextField
           fullWidth
